@@ -25,7 +25,7 @@ app.post('/', async (req, res) => {
     let weather = null;
 
     if (city) {
-        const apiKey = 'e796693935e500a486ccae22b1f6dcce';
+        const apiKey = 'ok';
         const url = `http://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=${apiKey}`;
 
         try {
